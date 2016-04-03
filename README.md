@@ -7,4 +7,5 @@
   $ git commit 'create repos'
   $ rm .keep
   $ rbenv local 2.2.3
+  $ bundle init
 ```
