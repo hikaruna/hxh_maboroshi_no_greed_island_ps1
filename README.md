@@ -41,4 +41,5 @@
       //= require_tree .
   $ vi Gemfile
     + gem "bootstrap-sass"
+  $ bundle install
 ```
