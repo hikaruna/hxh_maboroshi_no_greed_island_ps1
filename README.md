@@ -11,4 +11,5 @@
   $ vi Gemfile
     - gem "rails"
     + gem "middleman"
+    + gem "slim"
 ```
