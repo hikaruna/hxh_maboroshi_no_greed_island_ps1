@@ -1,10 +1,46 @@
 ---
-title: Welcome to Middleman
+title: ハンターハンター幻のグリードアイランド PS1 攻略メモ
 ---
 
-.welcome
-  .logo
-    == image_tag 'middleman-logo.svg'
-  h1 Middleman is Watching
-  p.doc
-    == link_to "Read Online Documentation", "http://middlemanapp.com/"
+section
+  h2 仲間
+  table.table.table-striped.table-bordered
+    tr
+     th.col-xs-6.col-sm-3 仲間
+     th.col-xs-6.col-sm-9 備考
+    - data.partners.each do |partner|
+      tr
+        th = partner.name
+        td = partner.note
+
+section
+  h2 ダンジョン
+  - data.areas.each do |area|
+    section
+      h3 = area.name
+      table.table.table-striped.table-bordered
+        tr
+         th.col-md-2 名前
+         th.col-md-1 階層
+         th.col-md-9 備考
+        - data.dungeons.select{|i| i.area == area.name}.each do |dungeon|
+          tr
+            th = dungeon.name
+            td
+              | #{dungeon.floors}F
+            td = dungeon.remarks
+
+section
+  h2 技
+  table.table.table-striped.table-bordered
+    tr
+     th.col-xs-5.col-sm-3 技名
+     th.col-xs-1.col-sm-1 消費AP
+     th.col-xs-1.col-sm-1 取得NP
+     th.col-xs-5.col-sm-7 備考
+    - data.abillities.each do |abillity|
+      tr
+        th = abillity.name
+        td = abillity.ap
+        td = abillity.np
+        td = abillity.remarks

@@ -1,0 +1,9 @@
+models:
+  attributy: 技
+attributes:
+  attributy:
+    - name: 名前
+    - ap: 消費AP
+    - np: 取得NP
+    - time: 長さ
+    - remarks: 備考

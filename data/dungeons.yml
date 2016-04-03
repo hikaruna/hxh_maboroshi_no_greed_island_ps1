@@ -1,0 +1,158 @@
+-
+  name: ユニ平原
+  floors: 4
+  area: 港地区
+-
+  name: カミ洞窟
+  floors: 4
+  remarks: カギ穴
+  area: 港地区
+-
+  name: ヒト林道
+  floors: 4
+  area: 港地区
+-
+  name: カリ遺跡
+  floors: 5
+  remarks: 青いカギ
+  area: 港地区
+-
+  name: カリド遺跡
+  floors: 5
+  area: 港地区
+-
+  name: ハイ砂漠
+  floors: 5
+  area: 砂漠地区
+-
+  name: ハイドオアシス
+  floors: 5
+  area: 砂漠地区
+-
+  name: セクド遺跡
+  floors: 6
+  remarks: 日射病イベント
+  area: 砂漠地区
+-
+  name: セクドロ遺跡
+  floors: 6
+  area: 砂漠地区
+-
+  name: バグ遺跡
+  floors: 6
+  remarks: 手紙１
+  area: 砂漠地区
+  hidden: true
+-
+  name: ツタン遺跡
+  area: 砂漠地区
+  hidden: true
+-
+  name: ミツミ湿地
+  floors: 5
+  area: 湿地帯
+-
+  name: カツミ湿地
+  floors: 4
+  area: 湿地帯
+-
+  name: クレイド屋敷
+  floors: 5
+  remarks: ２択クイズ、爆弾解除イベント
+  area: 湿地帯
+-
+  name: アール遺跡
+  floors: 6
+  remarks: 紫のカギ
+  area: 湿地帯
+-
+  name: アプ塔
+  floors: 6
+  remarks: イベント
+  area: 湿地帯
+-
+  name: アプ塔地下
+  floors: 7
+  remarks: 手紙２
+  area: 湿地帯
+  hidden: true
+-
+  name: ズズノビル
+  floors: 5
+  remarks: イベント
+  area: 廃棄都市
+-
+  name: タウン地下街
+  floors: 5
+  remarks: 緑のカギ
+  area: 廃棄都市
+-
+  name: ジェル工場
+  floors: 7
+  area: 廃棄都市
+-
+  name: ジェル屋敷
+  floors: 7
+  area: 廃棄都市
+-
+  name: ジェル倉庫
+  floors: 4
+  area: クレイド工場
+-
+  name: センダ雪原
+  floors: 5
+  remarks: イベント
+  area: 雪原
+-
+  name: キタモリ遺跡
+  floors: 7
+  remarks: 黄色いカギ
+  area: 雪原
+-
+  name: キタヤマ遺跡
+  floors: 7
+  area: 雪原
+-
+  name: アカノ洞窟
+  area: 雪原
+-
+  name: サウス氷窟
+  floors: 5
+  area: 雪原
+  hidden: true
+-
+  name: スワ雪原
+  floors: 4
+  area: 雪原
+  hidden: true
+-
+  name: ギロフ密林
+  floors: 6
+  area: 密林
+-
+  name: ノロ遺跡
+  floors: 7
+  remarks: イベント、白いカギ
+  area: 密林
+-
+  name: ノロド遺跡
+  floors: 7
+  remarks: ティム洞窟地図
+  area: 密林
+-
+  name: クロス洞窟
+  floors: 9
+  remarks: イベント、シロノ雪原地図
+  area: 密林
+-
+  name: ヤミ遺跡
+  area: 密林
+  hidden: true
+-
+  name: ウィル洞窟
+  floors: 8
+  area: 火山地区
+-
+  name: ティム洞窟
+  area: 火山地区
+  hidden: true
