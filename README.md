@@ -42,4 +42,12 @@
   $ vi Gemfile
     + gem "bootstrap-sass"
   $ bundle install
+  $ vi source/stylesheets/site.css.sass
+      @charset "utf-8"
+    + @import bootstrap-sprockets
+    + @import bootstrap
+  $ vi source/javascripts/all.js
+      //= require jquery
+    + //= require bootstrap-sprockets
+      //= require_tree .
 ```
