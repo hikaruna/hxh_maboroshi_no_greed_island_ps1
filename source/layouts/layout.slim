@@ -13,10 +13,9 @@ html
     == javascript_include_tag  "all"
 
   body class="#{page_classes}"
-    header
+    header.container-fluid
       h1 = data.data.title
-    .container
-      main
-        article
-          h2 = current_page.data.title
-          == yield
+    main
+      article.container
+        h2 = current_page.data.title
+        == yield

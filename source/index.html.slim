@@ -2,7 +2,7 @@
 title: トップページ
 ---
 
-section
+section.container
   h3 仲間
   table.table.table-striped.table-bordered
     tr
@@ -13,10 +13,10 @@ section
         th = partner.name
         td = partner.note
 
-section
+section.container
   h3 ダンジョン
   - data.areas.each do |area|
-    section
+    section.container
       h4 = area.name
       table.table.table-striped.table-bordered
         tr
@@ -30,7 +30,7 @@ section
               | #{dungeon.floors}F
             td = dungeon.remarks
 
-section
+section.container
   h3 技
   table.table.table-striped.table-bordered
     tr
