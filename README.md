@@ -39,4 +39,6 @@
   $ vi source/javascripts/all.js
     + //= require jquery
       //= require_tree .
+  $ vi Gemfile
+    + gem "bootstrap-sass"
 ```
