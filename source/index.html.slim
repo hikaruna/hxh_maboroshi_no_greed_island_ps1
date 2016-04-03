@@ -1,9 +1,9 @@
 ---
-title: ハンターハンター幻のグリードアイランド PS1 攻略メモ
+title: トップページ
 ---
 
 section
-  h2 仲間
+  h3 仲間
   table.table.table-striped.table-bordered
     tr
      th.col-xs-6.col-sm-3 仲間
@@ -14,10 +14,10 @@ section
         td = partner.note
 
 section
-  h2 ダンジョン
+  h3 ダンジョン
   - data.areas.each do |area|
     section
-      h3 = area.name
+      h4 = area.name
       table.table.table-striped.table-bordered
         tr
          th.col-md-2 名前
@@ -31,7 +31,7 @@ section
             td = dungeon.remarks
 
 section
-  h2 技
+  h3 技
   table.table.table-striped.table-bordered
     tr
      th.col-xs-5.col-sm-3 技名

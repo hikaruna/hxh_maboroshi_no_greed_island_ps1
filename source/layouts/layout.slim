@@ -5,7 +5,7 @@ html
     meta charset="utf-8"
     meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
 
-    title = current_page.data.title || "The Middleman"
+    title = current_page.data.title || data.data.title 
 
     link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'
 
@@ -13,4 +13,10 @@ html
     == javascript_include_tag  "all"
 
   body class="#{page_classes}"
-    == yield
+    header
+      h1 = data.data.title
+    .container
+      main
+        article
+          h2 = current_page.data.title
+          == yield
