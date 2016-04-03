@@ -5,4 +5,5 @@
   $ touch .keep
   $ git add .keep
   $ git commit 'create repos'
+  $ rm .keep
 ```
