@@ -41,4 +41,12 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+  set :http_prefix, '/hxh_maboroshi_no_greed_island_ps1'
+end
+
+# デプロイの設定
+# 今回は gh-pages を使用するので branch に 'gh-pages' を設定する
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'gh-pages'
 end
