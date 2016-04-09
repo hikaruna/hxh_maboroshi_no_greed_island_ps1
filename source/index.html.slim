@@ -15,7 +15,7 @@ section.container
 
 section.container
   h3 ダンジョン
-  - data.areas.each do |area|
+  - Area.all.each do |area|
     section.container
       h4 = area.name
       table.table.table-striped.table-bordered
@@ -23,7 +23,7 @@ section.container
          th.col-md-2 名前
          th.col-md-1 階層
          th.col-md-9 備考
-        - data.dungeons.select{|i| i.area == area.name}.each do |dungeon|
+        - area.dungeons.each do |dungeon|
           tr
             th = dungeon.name
             td
@@ -38,9 +38,9 @@ section.container
      th.col-xs-1.col-sm-1 消費AP
      th.col-xs-1.col-sm-1 取得NP
      th.col-xs-5.col-sm-7 備考
-    - data.abillities.each do |abillity|
+    - Abillity.all.each do |abillity|
       tr
         th = abillity.name
         td = abillity.ap
         td = abillity.np
-        td = abillity.remarks
+        td = abillity.try!(:remarks)

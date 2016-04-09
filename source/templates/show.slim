@@ -1,0 +1,21 @@
+
+h1.h2
+  = link_to model.class.name.tableize, "/#{model.class.name.tableize}.html"
+  | >
+  = model.name
+table.table.table-borderd
+  - model.attributes.reject{|i| i =~ /id\Z/ || i == "name" }.each do |attr, val|
+    tr
+      th = attr
+      td = val
+  - model.class.reflect_on_all_associations.each do |association|
+    - child = model.send(association.name)
+    tr
+      th = association.name
+      - if association.macro == :has_many
+        td
+          ul
+            - child.each do |a|
+              li = link_to a.name, "/#{a.model_name.to_s.downcase.pluralize}/#{a.name}.html"
+      - else
+        td = link_to child.name, "/#{child.model_name.to_s.downcase.pluralize}/#{child.name}.html"

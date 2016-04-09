@@ -1,158 +1,158 @@
--
+ユニ平原:
   name: ユニ平原
   floors: 4
   area: 港地区
--
+kami_doukutsu_dungeon:
   name: カミ洞窟
   floors: 4
   remarks: カギ穴
   area: 港地区
--
+hito_rindou_dungeon:
   name: ヒト林道
   floors: 4
   area: 港地区
--
+kari_iseki_dungeon:
   name: カリ遺跡
   floors: 5
   remarks: 青いカギ
   area: 港地区
--
+karido_iseki_dungeon:
   name: カリド遺跡
   floors: 5
   area: 港地区
--
+hai_sabaku_dungeon:
   name: ハイ砂漠
   floors: 5
-  area: 砂漠地区
--
+  area: sabaku_area
+haido_oashisu_dungeon:
   name: ハイドオアシス
   floors: 5
-  area: 砂漠地区
--
+  area: sabaku_area
+sekudo_iseki_dungeon:
   name: セクド遺跡
   floors: 6
   remarks: 日射病イベント
-  area: 砂漠地区
--
+  area: sabaku_area
+sekudoro_iseki_dungeon:
   name: セクドロ遺跡
   floors: 6
-  area: 砂漠地区
--
+  area: sabaku_area
+bagu_iseki_dungeon:
   name: バグ遺跡
   floors: 6
   remarks: 手紙１
-  area: 砂漠地区
+  area: sabaku_area
   hidden: true
--
+tsutan_iseki_dungeon:
   name: ツタン遺跡
-  area: 砂漠地区
+  area: sabaku_area
   hidden: true
--
+mitsumi_shicchi_dungeon:
   name: ミツミ湿地
   floors: 5
   area: 湿地帯
--
+katsumi_shicchi_dungeon:
   name: カツミ湿地
   floors: 4
   area: 湿地帯
--
+kureido_yashiki_dungeon:
   name: クレイド屋敷
   floors: 5
   remarks: ２択クイズ、爆弾解除イベント
   area: 湿地帯
--
+a-ru_iseki_dungeon:
   name: アール遺跡
   floors: 6
   remarks: 紫のカギ
   area: 湿地帯
--
+apu_tou_dungeon:
   name: アプ塔
   floors: 6
   remarks: イベント
   area: 湿地帯
--
+apu_tou_chika_dungeon:
   name: アプ塔地下
   floors: 7
   remarks: 手紙２
   area: 湿地帯
   hidden: true
--
+suzuno_biru_dungeon:
   name: ズズノビル
   floors: 5
   remarks: イベント
   area: 廃棄都市
--
+town_chikagai_dungeon:
   name: タウン地下街
   floors: 5
   remarks: 緑のカギ
   area: 廃棄都市
--
+jeru_koujou_dungeon:
   name: ジェル工場
   floors: 7
   area: 廃棄都市
--
+jeru_yashiki_dungeon:
   name: ジェル屋敷
   floors: 7
   area: 廃棄都市
--
+jeru_souko_dungeon:
   name: ジェル倉庫
   floors: 4
-  area: クレイド工場
--
+  area: 廃棄都市
+senda_setsugen_dungeon:
   name: センダ雪原
   floors: 5
   remarks: イベント
-  area: 雪原
--
+  area: setsugen_area
+kitamori_iseki_dungeon:
   name: キタモリ遺跡
   floors: 7
   remarks: 黄色いカギ
-  area: 雪原
--
+  area: setsugen_area
+kitayama_iseki_dungeon:
   name: キタヤマ遺跡
   floors: 7
-  area: 雪原
--
+  area: setsugen_area
+akano_doukutsu_dungeon:
   name: アカノ洞窟
-  area: 雪原
--
+  area: setsugen_area
+south_hyoukutsu_dungeon:
   name: サウス氷窟
   floors: 5
-  area: 雪原
+  area: setsugen_area
   hidden: true
--
+suwa_setsugen_dungeon:
   name: スワ雪原
   floors: 4
-  area: 雪原
+  area: setsugen_area
   hidden: true
--
+girohu_mitsurin_dungeon:
   name: ギロフ密林
   floors: 6
-  area: 密林
--
+  area: mitsurin_area
+noro_iseki_dungeon:
   name: ノロ遺跡
   floors: 7
   remarks: イベント、白いカギ
-  area: 密林
--
+  area: mitsurin_area
+norodo_iseki_dungeon:
   name: ノロド遺跡
   floors: 7
   remarks: ティム洞窟地図
-  area: 密林
--
+  area: mitsurin_area
+kurosu_doukutsu_dungeon:
   name: クロス洞窟
   floors: 9
   remarks: イベント、シロノ雪原地図
-  area: 密林
--
+  area: mitsurin_area
+yami_iseki_dungeon:
   name: ヤミ遺跡
-  area: 密林
+  area: mitsurin_area
   hidden: true
--
+wiru_doukutsu_dungeon:
   name: ウィル洞窟
   floors: 8
-  area: 火山地区
--
+  area: kazan_area
+twimu_doukutsu_dungeon:
   name: ティム洞窟
-  area: 火山地区
+  area: kazan_area
   hidden: true

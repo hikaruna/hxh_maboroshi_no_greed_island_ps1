@@ -1,0 +1,4 @@
+h1 = model_class.name
+ul
+  - names.each do |name|
+    li = link_to name, "/#{model_class.name.tableize}/#{name}.html"
